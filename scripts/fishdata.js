@@ -201,7 +201,7 @@ const fishCollection = [
 		inches: 7,
 		image: "bluefish.jpg"
 	},
-	{ saltWater: true, harvestLocation: "Atlantic, Pacific, and southern sea", diet: "smaller fish", name: "bluefin tuna", species: "Thunnus thynnus", inches: 84, image: bluefin.pg },
+	{ saltWater: true, harvestLocation: "Atlantic, Pacific, and southern sea", diet: "smaller fish", name: "bluefin tuna", species: "Thunnus thynnus", inches: 84, image: "bluefin.pg" },
 	{
 		saltwater: true,
 		harvestLocation: "Baltic Sea",
@@ -212,3 +212,42 @@ const fishCollection = [
 		image: "bluefish.jpg"
 	}
 ];
+
+export const getFish = () => {
+	return fishCollection;
+}
+
+export const getMostHolyFish = () => {
+	const holyFishArray = []
+	
+	for (const fishObj of fishCollection) {
+		if (fishObj.inches % 3 === 0) {
+			holyFishArray.push(fishObj)
+		}
+	}
+	return holyFishArray
+}
+
+export const getSoldierFish = () => {
+	
+	const soldierFishArray = []
+
+	for (const fishObj of fishCollection) {
+		if (fishObj.inches % 5 === 0 && fishObj.inches % 3 !== 0) {
+			soldierFishArray.push(fishObj);
+		}
+	}
+	return soldierFishArray
+}
+
+export const getUnworthyFish = () => {
+
+	const unworthyFishArray = []
+
+	for (const fishObj of fishCollection) {
+		if (fishObj.inches % 5 !== 0 && fishObj.inches % 3 !== 0) {
+			unworthyFishArray.push(fishObj);
+		}
+	}
+	return unworthyFishArray
+}

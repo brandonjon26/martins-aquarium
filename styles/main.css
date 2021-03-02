@@ -2,6 +2,10 @@
 /* Be sure to create a styles directory and put this file in there */
 /* @import "tips.css"; */
 
+/* *{
+	border: 1px black solid;
+} */
+
 body {
 	background-color: antiquewhite;
 	font-family: 'Poppins', sans-serif;
@@ -57,7 +61,16 @@ nav a:active {
 .fishList{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;	
+	justify-content: space-evenly;
+	max-width: 60%;	
+}
+
+#tipsList{
+	width: 20%
+}
+
+#locationList{
+	width: 20%
 }
 
 .fish-card {
