@@ -12,11 +12,11 @@ import { getLocations } from "./locationData.js";
 
  export const locationList = () => {
 	// 1. Get the array of Fish
-	const allTips = getLocations();
+	const allLocations = getLocations();
 	// 2. Get a reference to the location on the DOM where you want to display the list of fish
 	const DOMLocation = document.querySelector("#locationList");
 	// 3. Declare a variable to hold on to fish HTML representations
-	let locationsHTMLRepresentations = "";
+	let locationHTMLRepresentations = "";
 	// 3. Loop over the array of fish and for each one, invoke the Fish component which returns HTML representation
 
 	for(const oneThingFromTheSea of allLocations){

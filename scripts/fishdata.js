@@ -17,7 +17,7 @@ const fishCollection = [
 		inches: 3,
 		image: "pinkfish.jpg"
 	},
-	{ saltWater: true, harvestLocation: "Atlantic Ocean", diet: "squid", name: "BigBoss", species: "Amber Jack", inches: 60, image: "greyfish.jpg" },
+	{ saltWater: true, harvestLocation: "Atlantic Ocean", diet: "squid", name: "BigBoss", species: "Amber Jack", inches: 60, image: "pinkfish.jpg" },
 	{
 		saltWater: true,
 		harvestLocation: "Pacific Ocean",
@@ -88,10 +88,9 @@ const fishCollection = [
 		name: "Whiskers",
 		species: "Ictalurus furcatus",
 		inches: 39,
-		image: "blueCatfish.jpg"
+		image: "bluefish.jpg"
 	},
 	{ saltWater: true, harvestLocation: "South Pacific", diet: "shrimp", inches: 64, species: "Tuna", name: "Bruno", image: "bluefish.jpg" },
-	{ saltWater: false, harvestLocation: "Petsmart", diet: "algae", name: "Dorothy", species: "goldfish", inches: 3, img: "bluefish.jpg" },
 	{
 		saltWater: false,
 		harvestLocation: "Lake Tahoe",
@@ -117,7 +116,7 @@ const fishCollection = [
 		name: "Pizza",
 		species: "Tuna",
 		inches: 40,
-		image: "tuna.jpg"
+		image: "bluefish.jpg"
 	},
 	{
 		saltWater: false,
@@ -126,7 +125,7 @@ const fishCollection = [
 		name: "Finn",
 		species: "Bass",
 		inches: 20,
-		image: "bluefish.jpeg",
+		image: "bluefish.jpg",
 	},
 	{
 		saltWater: true,
@@ -160,7 +159,7 @@ const fishCollection = [
 		harvestLocation: "Atlantic Sea",
 		name: "flipper",
 		inches: 12,
-		image: "orangefish.jpg",
+		image: "pinkfish.jpg",
 		diet: "worms",
 		species: "garibaldi"
 	},
@@ -201,7 +200,7 @@ const fishCollection = [
 		inches: 7,
 		image: "bluefish.jpg"
 	},
-	{ saltWater: true, harvestLocation: "Atlantic, Pacific, and southern sea", diet: "smaller fish", name: "bluefin tuna", species: "Thunnus thynnus", inches: 84, image: "bluefin.pg" },
+	{ saltWater: true, harvestLocation: "Atlantic, Pacific, and southern sea", diet: "smaller fish", name: "bluefin tuna", species: "Thunnus thynnus", inches: 84, image: "bluefish.jpg" },
 	{
 		saltwater: true,
 		harvestLocation: "Baltic Sea",

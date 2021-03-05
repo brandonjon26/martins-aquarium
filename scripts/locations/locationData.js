@@ -54,7 +54,7 @@ const locationCollection = [
 
 ];
 
-export const getLocation = () => {
+export const getLocations = () => {
 	
 	return locationCollection;
 }

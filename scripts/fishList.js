@@ -13,13 +13,14 @@ import { getFish, getMostHolyFish, getSoldierFish, getUnworthyFish } from "./Fis
 
  export const FishList = () => {
 	// 1. Get the array of Fish
-	const holyFish = getMostHolyFish();
-	const soldierFish = getSoldierFish();
-	const unworthyFish = getUnworthyFish();
+	// const holyFish = getMostHolyFish();
+	// const soldierFish = getSoldierFish();
+	// const unworthyFish = getUnworthyFish();
+	const allFishes = getFish();
 
 //debugger
 
-	const allFishes = holyFish.concat(soldierFish, unworthyFish);
+	getFish();
 	// 2. Get a reference to the location on the DOM where you want to display the list of fish
 	const DOMLocation = document.querySelector("#fishList");
 	// 3. Declare a variable to hold on to fish HTML representations
