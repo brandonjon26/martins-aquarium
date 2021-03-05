@@ -20,9 +20,9 @@ import { getTips } from "./tipsData.js";
 	let tipsHTMLRepresentations = "";
 	// 3. Loop over the array of fish and for each one, invoke the Fish component which returns HTML representation
 
-	for(const oneThingFromTheSea of allTips){
-		//do something with the oneThingFromTheSea
-		tipsHTMLRepresentations += Tips(oneThingFromTheSea);
+	for(const oneThingFromTheTip of allTips){
+		//do something with the oneThingFromTheTip
+		tipsHTMLRepresentations += Tips(oneThingFromTheTip);
 	}
 
     DOMLocation.innerHTML += `${tipsHTMLRepresentations}`;

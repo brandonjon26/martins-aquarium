@@ -19,9 +19,9 @@ import { getLocations } from "./locationData.js";
 	let locationHTMLRepresentations = "";
 	// 3. Loop over the array of fish and for each one, invoke the Fish component which returns HTML representation
 
-	for(const oneThingFromTheSea of allLocations){
-		//do something with the oneThingFromTheSea
-		locationHTMLRepresentations += Locations(oneThingFromTheSea);
+	for(const oneThingFromTheDestination of allLocations){
+		//do something with the oneThingFromeTheDestination
+		locationHTMLRepresentations += Locations(oneThingFromTheDestination);
 	}
 
     DOMLocation.innerHTML += `${locationHTMLRepresentations}`;
