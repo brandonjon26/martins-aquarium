@@ -24,7 +24,7 @@ import { getLocations } from "./locationData.js";
 		locationHTMLRepresentations += Locations(oneThingFromTheDestination);
 	}
 
-    DOMLocation.innerHTML += `${locationHTMLRepresentations}`;
-	console.log("locationHTMLRepresentations", `${locationHTMLRepresentations}`);
-
+	console.log("locationHTMLRepresentations", locationHTMLRepresentations);
+	
+    DOMLocation.innerHTML += locationHTMLRepresentations;
  }

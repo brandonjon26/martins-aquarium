@@ -14,6 +14,10 @@ import { getTips } from "./tipsData.js";
  export const tipsList = () => {
 	// 1. Get the array of Fish
 	const allTips = getTips();
+
+//debugger
+
+	getTips();
 	// 2. Get a reference to the location on the DOM where you want to display the list of fish
 	const DOMLocation = document.querySelector("#tipsList");
 	// 3. Declare a variable to hold on to fish HTML representations
@@ -25,7 +29,7 @@ import { getTips } from "./tipsData.js";
 		tipsHTMLRepresentations += Tips(oneThingFromTheTip);
 	}
 
-    DOMLocation.innerHTML += `${tipsHTMLRepresentations}`;
-	console.log("tipsHTMLRepresentations", `${tipsHTMLRepresentations}`);
-
+	console.log("tipsHTMLRepresentations", tipsHTMLRepresentations);
+	
+    DOMLocation.innerHTML += tipsHTMLRepresentations;
  }

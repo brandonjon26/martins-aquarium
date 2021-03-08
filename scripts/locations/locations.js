@@ -3,7 +3,7 @@ export const Locations = (locationObj) => {
 
         `<div classes="locationContainer">
             <ul >
-                <li>${locationObj.tips}</li>
+                <li>${locationObj.location}</li>
             <ul>
         </div>`
     )

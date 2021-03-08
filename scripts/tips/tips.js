@@ -3,7 +3,7 @@ export const Tips = (tipObj) => {
 
         `<div classes="tipContainer">
             <ul >
-                <li>${tipObj.tips}</li>
+                <li>${tipObj.tip}</li>
             <ul>
         </div>`
     )
